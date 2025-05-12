@@ -26,6 +26,7 @@ jobs:
         with:
             repository: miuix-kotlin-multiplatform/miuix
             ref: main
+            fetch-depth: 0
       - name: Set up JDK
         uses: actions/setup-java@v4
         with:
